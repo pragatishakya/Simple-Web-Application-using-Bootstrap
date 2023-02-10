@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>My Web App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top"> <!--navabar-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-header">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">My Logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="my-header">
+                <a href="" class="btn btn-lg btn-info navbar-btn navbar-right">Download Now</a>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#feedback">Feedback</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron custom-margin text-center" style="margin-top: -20px;">
+        <div class="container " >
+            <h1 style="padding-top:15px;">Entrepneur Adda</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus sunt quisquam repellat dolore repudiandae, totam nam qui rem perferendis mollitia quae maiores? Quos sit repudiandae labore sapiente. Laudantium, ea.</p>
+        </div>
+        <div class="btn-group btn-group-lg ">
+            <a href="#" class="btn btn-info btn-lg">Download App</a>
+            <a href="#" class="btn btn-default btn-lg">Visit Store</a>
+            <a href="#" class="btn btn-info btn-lg">Spread the word</a> 
+        </div>
+    </div>
+    <div class="container">  <!--feedback-->
+        <div class="page-header" id="feedback">
+            <h2>Feedback <small>Checkout Awesome Feedback</small></h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui nisi dolor, molestias expedita delectus tenetur et molestiae minus, nesciunt minima recusandae velit. Alias doloribus nobis aliquam ex. Necessitatibus, reprehenderit!</p>
+                    </blockquote>
+                    <footer>
+                        --Foolish Person
+                    </footer>
+                </div>
+                <div class="col-sm-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui nisi dolor, molestias expedita delectus tenetur et molestiae minus, nesciunt minima recusandae velit. Alias doloribus nobis aliquam ex. Necessitatibus, reprehenderit!</p>
+                    </blockquote>
+                    <footer>
+                        --Foolish Person
+                    </footer>
+                </div>
+                <div class="col-sm-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui nisi dolor, molestias expedita delectus tenetur et molestiae minus, nesciunt minima recusandae velit. Alias doloribus nobis aliquam ex. Necessitatibus, reprehenderit!</p>
+                    </blockquote>
+                    <footer>
+                        --Foolish Person
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="well text-center">
+        <div class="container">
+            <h3>Subscribe for more Free Stuff</h3>
+            <p>Enter your Name and Email</p>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="name" >Name:</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email" >Email:</label>
+                    <input type="email" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-info ">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="container" id="gallery">  <!--Gallery-->
+        <h3>Gallery <small>Check Out Awesome Gallery</small></h3>
+    
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active " >
+                    <img src="img1.jpg" alt="view" class="img-responsive">
+                </div>
+                <div class="item img-responsive">
+                    <img src="img2.jpg" alt="hil;-station">
+                </div>
+                <div class="item img-responsive">
+                    <img src="img3.jpg" alt="white-city">
+                </div>
+            </div>
+            <!-- left and right controls -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="features">
+        <h3>Features <Small>Some of the coolest features of this App</Small></h3>
+        <div class="row">
+            <div class="col-sm-9">
+                <h1>This is Heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis suscipit similique doloribus reprehenderit dolore dolorem debitis earum aut eius ratione qui sequi officiis delectus, tempora ipsam aliquid voluptate explicabo odit sint eum voluptatibus voluptates? Est aliquid alias pariatur exercitationem? Rerum sapiente facere sit animi, quas ratione praesentium minus veritatis voluptatum quae ad accusamus fugit ipsa temporibus, repudiandae magni eaque neque doloremque dolor illo beatae ipsum? Deleniti nulla tempora optio modi error facilis, iusto molestiae sunt magni ea nobis architecto blanditiis aspernatur et mollitia repellat nihil! Unde minima aliquam rem eius vero repudiandae, accusantium quae provident amet, at eum, consectetur laboriosam!
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img  src="https://images.unsplash.com/photo-1672094732705-b39d78da5bf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="coke" class="img-responsive" style="margin-bottom: 10px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9">
+                <h1>This is Heading</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, distinctio nam minima dolorem sunt provident recusandae cumque esse quo magni! Magni laudantium, accusamus sit aut necessitatibus, odit repudiandae aperiam at placeat quos nisi error numquam architecto ea facere maiores quas praesentium dolore ex, officia porro quae maxime dolorum! Ullam veniam maxime ipsam, nostrum fuga harum doloribus nesciunt sapiente molestias optio facere id vero nemo atque exercitationem, architecto quibusdam assumenda ab asperiores sunt. Provident aliquam libero corrupti voluptas error dolor id eaque iure esse? Eos consectetur nostrum officia expedita veritatis nam ea exercitationem itaque. Praesentium magnam dolor quam, voluptatibus provident nostrum.</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="https://images.unsplash.com/photo-1672094732705-b39d78da5bf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="coke" class="img-responsive" style="margin-bottom: 10px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9">
+                <h1>This is Heading</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quis dicta atque, quas modi ex debitis commodi, qui in itaque dolore provident pariatur dolores nesciunt? Hic cum velit dolorem doloribus recusandae, tenetur laboriosam voluptatum necessitatibus excepturi quos, provident quo commodi, ex minima numquam tempore perferendis! Odit, blanditiis ipsum. Id, expedita unde harum hic totam distinctio, labore voluptatem quas, amet ratione neque pariatur veniam similique quisquam voluptate asperiores. Maxime quae fuga fugiat minima cupiditate. Sit ratione laboriosam minima nobis numquam, ut aspernatur ipsum quo quasi laudantium culpa, at neque rem dignissimos, recusandae mollitia maiores? Omnis, deserunt illum libero nemo facilis quam.</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="https://images.unsplash.com/photo-1672094732705-b39d78da5bf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="coke" class="img-responsive" style="margin-bottom: 10px;">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>This is Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam et ipsa eveniet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>This is Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam et ipsa eveniet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>This is Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam et ipsa eveniet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
